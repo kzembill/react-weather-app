@@ -33,7 +33,7 @@ export default function Weather() {
             </div>
           </div>
         </form>
-        <button class="float-right btn btn-success">Current</button>
+        <button class="float-left btn btn-success">Current</button>
         <div className="overview">
           <h1>{weatherData.city}</h1>
           <ul>
@@ -42,8 +42,8 @@ export default function Weather() {
           </ul>
         </div>
         <div className="row">
-          <div className="col-6">
-            <div className="clearfix weather-temperature">
+          <div className="col">
+            <div className="d-flex weather-temperature">
               <img
                 src={weatherData.imgUrl}
                 alt={weatherData.description}
@@ -65,6 +65,7 @@ export default function Weather() {
           </div>
         </div>
       </div>
+
     );
   }
   

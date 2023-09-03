@@ -1,5 +1,5 @@
 .Weather {
-    padding: 20px;
+    padding: 40px;
     border: 1px solid #dadde1;
     border-radius: 5px;
   }
@@ -16,7 +16,7 @@
   
   .Weather .weather-temperature strong {
     color: rgb(33, 33, 33);
-    font-size: 64px;
+    font-size: 50px;
     line-height: 1;
     font-weight: 400;
   }
@@ -25,6 +25,7 @@
     position: relative;
     font-size: 16px;
     top: -34px;
+    
   }
   
   .Weather .weather-temperature .active {
@@ -69,22 +70,56 @@
     background-color: green;
   }
   .btn-primary {
+    display: inline-block;
     border-radius: 2px;
     border: none;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 0 1px rgba(0,0,0,.08);
     height: 44px;
     outline: 0;
     padding: 10px;
-    width: 150px;
+    width: 120px;
     background-color: burlywood;
   }
   .btn-success {
+    display: inline-block;
     border-radius: 2px;
     border: none;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 0 1px rgba(0,0,0,.08);
     height: 44px;
     outline: 0;
     padding: 10px;
-    width: 150px;
+    width: 120px;
     background-color: green;
   }
+input {
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.16), 0 0 0 1px rgba(0,0,0,.08);
+    height: 44px;
+    outline: 0;
+    padding: 10px;
+    width: 300px;
+}
+
+.overview ul, li {
+    text-align: left;
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 600px;
+
+}
+div {
+    display: block;
+}
+h1{
+    text-align: left;
+}
+.img-src {
+    text-align: left;
+}
