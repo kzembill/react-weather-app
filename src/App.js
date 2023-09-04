@@ -9,7 +9,7 @@ export default function App() {
         <footer className="mt-1">
           👌This website was coded by {" "}
           <a 
-          href="https://www.linkedin.com/in/kaliope-caras-90333064?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3ByIipoITAToCLGeflU0HH2w%3D%3D" 
+          href="https://www.linkedin.com/in/kaliope-caras-90333064/" 
           target="_blank"
           rel="noreferrer"
           title="Kalli Caras' LinkedIn"
@@ -18,12 +18,12 @@ export default function App() {
           </a> {" "}
           and is {" "}
           <a 
-          href=""
+          href="https://github.com/kzembill/react-weather-app"
           target="_blank"
           rel="noreferrer"
           title="Source code on GitHub"
           >
-            Open-sourced
+            <strong>open-sourced</strong>
           </a>
         </footer>
       </div>
