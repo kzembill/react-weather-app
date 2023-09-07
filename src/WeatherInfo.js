@@ -21,11 +21,11 @@ export default function WeatherInfo(props) {
           <span className="temperature">
             {Math.round(props.data.temperature)}
           </span>
-          <span className="unit">°C</span>
+          <span className="unit">°F</span>
         </div>
         <div className="col-6 current-info">
           <ul>
-            <li>Feels Like: {Math.round(props.data.feelsLike)}°C</li>
+            <li>Feels Like: {Math.round(props.data.feelsLike)}°F</li>
             <li>Humidity: {props.data.humidity}%</li>
             <li>Wind: {props.data.wind} km/h</li>
           </ul>

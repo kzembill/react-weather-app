@@ -12,7 +12,7 @@ export default function App() {
           href="https://www.linkedin.com/in/kaliope-caras-90333064/" 
           target="_blank"
           rel="noreferrer"
-          title="Kalli Caras' LinkedIn"
+          title="Kalli Caras's LinkedIn"
           >
             Kalli Caras
           </a> {" "}
