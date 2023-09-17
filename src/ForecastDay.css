@@ -1,5 +1,8 @@
 .ForecastDay {
     text-align: center;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: #d8d7d7;
   }
   .ForecastDay .forecast-temp-min {
     opacity: 0.7;

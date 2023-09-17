@@ -11,7 +11,7 @@ export default function App() {
           <a 
           href="https://www.linkedin.com/in/kaliope-caras-90333064/" 
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           title="Kalli Caras's LinkedIn"
           >
             Kalli Caras
@@ -20,7 +20,7 @@ export default function App() {
           <a 
           href="https://github.com/kzembill/react-weather-app"
           target="_blank"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           title="Source code on GitHub"
           >
             <strong>open-sourced</strong>
